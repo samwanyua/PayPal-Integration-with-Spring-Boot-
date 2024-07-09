@@ -1,1 +1,5 @@
-spring.application.name=Paypal
+#spring.application.name=Paypal
+paypal:
+  client-id: CLIENT_ID
+  client-secret: CLIENT_SECRET
+  mode: sandbox # use 'sandbox' for testing and 'live' for production
